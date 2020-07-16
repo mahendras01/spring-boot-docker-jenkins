@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootDockerJenkinsApplication {
 	
-	@GetMapping("/message")
+	@GetMapping("/sorc")
 	public String home() {
 		return "Welcome to AWS First deployent...!!";
 	}
